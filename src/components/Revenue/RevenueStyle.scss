@@ -1,0 +1,154 @@
+.container-chart {
+  width: 1170px;
+  height: 780px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  position: relative;
+  margin: 70px 0 70px 70px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin: 32px 0 0 32px;
+  /* 24 sp • H5 / Morgb(0, 0, 0)t */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+
+  /* Dark */
+
+  color: #333333;
+}
+.link-to-list {
+  margin: 32px 0 0 32px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+
+  /* Dark */
+
+  color: #333333;
+}
+.style-link {
+  text-decoration: none;
+}
+.btn-block {
+  margin: 32px 32px 0 0;
+  .btn-1 {
+    font-weight: 700;
+    padding: 6px 13px 6px 13px;
+    letter-spacing: 0.25px;
+    color: #333333;
+  }
+  .btn-2 {
+    font-weight: 700;
+    padding: 6px 13px 6px 13px;
+    letter-spacing: 0.25px;
+    color: #333333;
+  }
+  .btn-3 {
+    font-weight: 700;
+    padding: 6px 13px 6px 13px;
+    letter-spacing: 0.25px;
+    color: #333333;
+  }
+  button {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+  }
+}
+.chart-container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 120px;
+}
+.total {
+  width: 31px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  margin: 400px 0 0 32px;
+  /* Caption / Montserrat */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+
+  /* Components / Caption color (grey) */
+
+  color: #9c9c9c;
+}
+.total-sum {
+  margin: 0 0 0 32px;
+
+  /* 24 sp • H5 / Montserrat */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 132%;
+  /* identical to box height, or 32px */
+
+  display: flex;
+  align-items: center;
+
+  /* Dark */
+
+  color: #333333;
+}
+.min-max {
+  width: 248px;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 0 32px 32px;
+  .title-price {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.4px;
+
+    /* Components / Caption color (grey) */
+
+    color: #9c9c9c;
+  }
+  .price {
+    margin: 0;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 132%;
+
+    /* Dark */
+
+    color: #333333;
+
+    opacity: 0.8;
+  }
+}
